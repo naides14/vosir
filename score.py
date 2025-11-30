@@ -1,4 +1,4 @@
-from datetime import *
+import datetime
 
 # расчет очков
 def calculate_score(word, attempts_used, max_attempts, difficulty):
