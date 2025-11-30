@@ -190,3 +190,11 @@ def show_hangman(attempts_left, max_attempts):
         ]
 
     print(stages[max_attempts - attempts_left])
+
+
+def show_welcome():
+    print("=" * 40)
+    print("        ИГРА 'ВИСЕЛИЦА'")
+    print("=" * 40)
+    print("Угадайте слово по буквам!")
+    print("=" * 40)
